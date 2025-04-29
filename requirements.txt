@@ -1,0 +1,7 @@
+numpy
+scipy
+pyapriltags
+open3d
+opencv-python
+pillow
+pyrealsense2
