@@ -3,9 +3,8 @@ import cv2 as cv
 import numpy as np
 from PIL import Image
 
-from rack_pipe_detector.rack_pipe_detector.apriltag_detector import AprilTagDetector, PnPTransform
-from rack_pipe_detector.rack_pipe_detector.utils import read_config, get_intrinsic_mat, calc_intersect_pt, \
-    calc_center_depth
+from rack_pipe_detector.apriltag_detector import AprilTagDetector, PnPTransform
+from rack_pipe_detector.utils import read_config, get_intrinsic_mat, calc_intersect_pt, calc_center_depth
 from test_utils import get_default_data_folder
 
 filename = 'example8'

@@ -2,8 +2,8 @@ import os
 import numpy as np
 import cv2 as cv
 from scipy.spatial.transform import Rotation
-from rack_pipe_detector.rack_pipe_detector import AprilTagDetection, AprilTagDetector
-from rack_pipe_detector.rack_pipe_detector.utils import read_config, get_intrinsic_mat, write_config
+from rack_pipe_detector import AprilTagDetection, AprilTagDetector
+from rack_pipe_detector.utils import read_config, get_intrinsic_mat, write_config
 
 
 def calc_poly_size(pts):

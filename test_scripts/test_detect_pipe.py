@@ -4,8 +4,8 @@ import numpy as np
 from PIL import Image
 from scipy.spatial.transform import Rotation
 
-from rack_pipe_detector.rack_pipe_detector.rack_detector import RackDetector, RackDetection
-from rack_pipe_detector.rack_pipe_detector.utils import read_config, get_intrinsic_mat
+from rack_pipe_detector.rack_detector import RackDetector, RackDetection
+from rack_pipe_detector.utils import read_config, get_intrinsic_mat
 from test_utils import get_default_data_folder
 
 filename = 'example1'
